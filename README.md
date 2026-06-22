@@ -15,13 +15,7 @@ Built using **LangChain + Groq + Tavily + BeautifulSoup + Streamlit**
 
 ## Live Demo
 
-**Streamlit App:** *(Add your deployed URL here)*
-
-Example:
-
-```bash
-https://your-app-name.streamlit.app
-```
+**Streamlit App:** https://srn-researchmind-multi-agent-system.streamlit.app/
 
 ---
 
