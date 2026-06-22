@@ -4,11 +4,13 @@ from bs4 import BeautifulSoup
 from tavily import TavilyClient
 import os
 from dotenv import load_dotenv
+import streamlit as st
 
 load_dotenv()
 
 # Tavily setup
-tavily = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
+tavily_key = st.secrets.get("TAVILY_API_KEY", os.getenv("TAVILY_API_KEY"))
+tavily = TavilyClient(api_key=tavily_key)
 
 
 @tool

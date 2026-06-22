@@ -1,14 +1,19 @@
+import os
+import streamlit as st
+from dotenv import load_dotenv
 from langchain.agents import create_agent
-from langchain_groq import ChatGroq   # changed
+from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from tools import web_search, scrape_url
-from dotenv import load_dotenv
 
 load_dotenv()
 
-# model setup
+# Read key from Streamlit secrets first, fallback to local .env
+groq_api_key = st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY"))
+
 llm = ChatGroq(
+    api_key=groq_api_key,
     model="llama-3.1-8b-instant",
     temperature=0
 )
