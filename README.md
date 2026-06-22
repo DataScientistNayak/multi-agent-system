@@ -31,15 +31,11 @@ This project follows an agentic workflow where each AI component has a dedicated
 
 ### Overall Workflow
 
-![Workflow](images/workflow_overview.png)
-
----
-
 ### Search Agent Flow
 
 Uses **Tavily API** for live internet search.
 
-![Search Agent](images/search_agent.png)
+<img width="637" height="308" alt="Screenshot 2026-06-22 101927" src="https://github.com/user-attachments/assets/7d37048d-fc1e-4a9d-983d-fafefdd1ffb4" />
 
 ---
 
@@ -47,7 +43,7 @@ Uses **Tavily API** for live internet search.
 
 Uses **BeautifulSoup** to scrape and extract detailed content.
 
-![Reader Agent](images/reader_agent.png)
+<img width="485" height="317" alt="Screenshot 2026-06-22 101943" src="https://github.com/user-attachments/assets/c80d0fc7-75a3-419f-9b61-418fb2594fa6" />
 
 ---
 
@@ -152,26 +148,29 @@ Reviews the generated report and provides:
 ## Application UI
 
 ### Homepage
-
-![Homepage](images/homepage.png)
+<img width="959" height="440" alt="Screenshot 2026-06-21 194440" src="https://github.com/user-attachments/assets/5855bce4-208f-4895-9f04-657d548713db" />
 
 ---
 
 ### Pipeline Execution
 
-![Pipeline Running](images/pipeline_running.png)
+<img width="959" height="440" alt="Screenshot 2026-06-21 194502" src="https://github.com/user-attachments/assets/048d0356-c781-453b-94ff-9a9ae950565b" />
+
 
 ---
 
 ### Final Generated Report
 
-![Report Output](images/report_output.png)
+<img width="959" height="437" alt="Screenshot 2026-06-21 194523" src="https://github.com/user-attachments/assets/7d478a69-c346-4367-8de6-3bc2fc17f37a" />
+<img width="940" height="435" alt="Screenshot 2026-06-21 194538" src="https://github.com/user-attachments/assets/ff83b1fe-f23d-4cf7-9fa1-93ec9b13e59f" />
+<img width="959" height="425" alt="Screenshot 2026-06-21 194554" src="https://github.com/user-attachments/assets/da358d4b-0fe5-4240-8b0f-aab15e1eea02" />
 
 ---
 
 ### Critic Feedback
 
-![Critic Output](images/critic_output.png)
+
+<img width="959" height="401" alt="Screenshot 2026-06-21 194613" src="https://github.com/user-attachments/assets/f515b18c-a08e-47b3-9f22-73494d90d54f" />
 
 ---
 
@@ -179,7 +178,8 @@ Reviews the generated report and provides:
 
 A sample generated report is included in this repository:
 
-**File:** [research_report_1782051131.md](https://github.com/user-attachments/files/29190702/research_report_1782051131.md)
+**File:** [research_report_1782051131.md](https://github.com/user-attachments/files/29190876/research_report_1782051131.md)
+
 
 
 Preview:
